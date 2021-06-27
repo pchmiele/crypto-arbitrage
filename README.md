@@ -20,11 +20,11 @@ The modified version of algorithm not only detects if there is a negative cycle,
 
 ### Complexity
 
-- Time complexity `O(V*E)` - for very dense graphs (number of currency exchanges is close to number of currencies, it could be close to `O(V^3)`)
+- Time complexity `O(V*E)` - for very dense graphs (number of currency exchanges (`E`) is close to number of currencies (`V`), it could be close to `O(V^3)`)
 - Time complexity (best case) `O(E)` - if there is no negative cycle, and Bellman Ford Algorithm stops after first iteration (no additional changes)
 - Space complexity `O(V)`
   
-where V is number of vertices (number of currencies in our case) and E is a number of edges (number of exchanges between currencies)
+where `V` is number of vertices (number of currencies in our case) and `E` is a number of edges (number of exchanges between currencies)
 
 ### Usage
 Run app:
